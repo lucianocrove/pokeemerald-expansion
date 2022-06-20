@@ -491,11 +491,11 @@ MtPyre_3F_EventScript_ItemSuperRepel::
 	end
 
 MtPyre_4F_EventScript_ItemSeaIncense::
-	finditem ITEM_SEA_INCENSE
+	finditem ITEM_DUSK_STONE
 	end
 
 MtPyre_5F_EventScript_ItemLaxIncense::
-	finditem ITEM_LAX_INCENSE
+	finditem ITEM_DUSK_BALL
 	end
 
 MtPyre_6F_EventScript_ItemTM30::
