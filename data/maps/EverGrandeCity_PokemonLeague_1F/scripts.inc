@@ -141,3 +141,58 @@ EverGrandeCity_PokemonLeague_1F_Text_GoForth:
 	.string "TRAINER! Believe in yourself and your\n"
 	.string "POKéMON, and go forth!$"
 
+EverGrandeCity_PokemonLeague_1F_EventScript_Nurse2::
+	lock
+	faceplayer
+	goto_if_set FLAG_RECEIVED_TM99, EverGrandeCity_PokemonLeague_1F_ReceivedHealBlock
+	msgbox EverGrandeCity_PokemonLeague_1F_Text_WaitingShift, MSGBOX_DEFAULT
+	giveitem ITEM_TM99
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
+	setflag FLAG_RECEIVED_TM99
+	setflag FLAG_HIDE_POKEMON_LEAGUE_1F_NURSE_JOY
+	release
+	end
+
+EverGrandeCity_PokemonLeague_1F_ReceivedHealBlock::
+	goto_if_set FLAG_TEMP_5, EverGrandeCity_PokemonLeague_1F_EventScript_ReceivedHealBlock2
+	msgbox EverGrandeCity_PokemonLeague_1F_Text_FunnyFromNurse, MSGBOX_DEFAULT
+	setflag FLAG_TEMP_5
+	release
+	end
+
+EverGrandeCity_PokemonLeague_1F_EventScript_ReceivedHealBlock2::
+	msgbox EverGrandeCity_PokemonLeague_1F_Text_Just99, MSGBOX_DEFAULT
+	release
+	end
+
+EverGrandeCity_PokemonLeague_1F_Text_WaitingShift:
+	.string "Hello and welcome to the POKéMON\n"
+	.string "Center!\l"
+	.string "We can restore the health of your\l"
+	.string "tired POKéMON...\p"
+	.string "..........\p"
+	.string "Well, that's what I would say from\n"
+	.string "the other side of the desk, but now\l"
+	.string "I'm waiting for my shift to start,\l"
+	.string "since I got a little early today.\p"
+	.string "Thank you for having this chat with\n"
+	.string "me!\p"
+	.string "You made my wait more entertaining.\n"
+	.string "Please take this.$"
+
+EverGrandeCity_PokemonLeague_1F_Text_FunnyFromNurse:
+	.string "I know what you're thinking...\n"
+	.string "It's kind of funny that a Nurse\l"
+	.string "gives you a TM like HEAL BLOCK.\p"
+	.string "But you know what some people say,\n"
+	.string "sometimes the cure is worse than\n"
+	.string "the disease.$"
+
+EverGrandeCity_PokemonLeague_1F_Text_Just99:
+	.string "Also, did they just make 99 of these\n"
+	.string "things?\p"
+	.string "I mean, 99 TM's are a lot, indeed!\n"
+	.string "But it feels like they could've\l"
+	.string "made just a tiny effort and release\l"
+	.string "100 TM's...........$"
+

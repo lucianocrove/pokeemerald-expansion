@@ -566,8 +566,14 @@ SlateportCity_EventScript_PowerTMClerk::
 
 	.align 2
 SlateportCity_Pokemart_PowerTMs:
-	.2byte ITEM_TM10  @ Hidden Power
-	.2byte ITEM_TM43  @ Secret Power
+	.2byte ITEM_TM56  @ Fling
+	.2byte ITEM_TM63  @ Embargo
+	.2byte ITEM_TM64  @ Headbutt
+	.2byte ITEM_TM67  @ Recycle
+	.2byte ITEM_TM77  @ Captivate
+	.2byte ITEM_TM82  @ Natural Gift
+	.2byte ITEM_TM54  @ False Swipe
+	.2byte ITEM_TM85  @ Grass Knot
 	.2byte ITEM_NONE
 	release
 	end

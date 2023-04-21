@@ -117,7 +117,20 @@
       "flag": "0"
     }
   ],
-  "warp_events": [],
-  "coord_events": [],
-  "bg_events": []
+  "warp_events": [
+
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+    {
+      "type": "hidden_item",
+      "x": 4,
+      "y": 13,
+      "elevation": 3,
+      "item": "ITEM_TM60",
+      "flag": "FLAG_HIDDEN_ITEM_ROUTE_107_TM_60"
+    }
+  ]
 }

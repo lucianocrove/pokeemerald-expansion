@@ -430,8 +430,8 @@ AbandonedShip_Rooms2_B1F_EventScript_ItemDiveBall::
 	finditem ITEM_DIVE_BALL
 	end
 
-AbandonedShip_Room_B1F_EventScript_ItemTM13::
-	finditem ITEM_TM13
+AbandonedShip_Room_B1F_EventScript_ItemTM55::
+	finditem ITEM_TM55 //EX TM13
 	end
 
 AbandonedShip_Rooms2_1F_EventScript_ItemRevive::
@@ -490,12 +490,12 @@ MtPyre_3F_EventScript_ItemSuperRepel::
 	finditem ITEM_SUPER_REPEL
 	end
 
-MtPyre_4F_EventScript_ItemSeaIncense::
-	finditem ITEM_DUSK_STONE
+MtPyre_4F_EventScript_ItemDuskStone::
+	finditem ITEM_DUSK_STONE //EX SEA INCENSE
 	end
 
-MtPyre_5F_EventScript_ItemLaxIncense::
-	finditem ITEM_DUSK_BALL
+MtPyre_5F_EventScript_ItemDuskBall::
+	finditem ITEM_DUSK_BALL //EX LAX INCENSE
 	end
 
 MtPyre_6F_EventScript_ItemTM30::
@@ -610,8 +610,8 @@ VictoryRoad_1F_EventScript_ItemPPUp::
 	finditem ITEM_PP_UP
 	end
 
-VictoryRoad_B1F_EventScript_ItemTM29::
-	finditem ITEM_TM29
+VictoryRoad_B1F_EventScript_ItemTM92::
+	finditem ITEM_TM92 //ex TM29
 	end
 
 VictoryRoad_B1F_EventScript_ItemFullRestore::
@@ -657,3 +657,64 @@ MagmaHideout_4F_EventScript_ItemMaxRevive::
 MagmaHideout_3F_3R_EventScript_ItemEscapeRope::
 	finditem ITEM_ESCAPE_ROPE
 	end
+
+Route123_EventScript_ItemTM52::
+	finditem ITEM_TM52 //focus blast
+	end
+
+Route119_EventScript_ItemTM53::
+	finditem ITEM_TM53 // energy ball
+	end
+
+MtPyre_Summit_EventScript_ItemTM61::
+	finditem ITEM_TM61 //will-o-wisp
+	end
+
+Route121_EventScript_ItemTM65::
+	finditem ITEM_TM65 //shadow claw
+	end
+
+Route124_EventScript_ItemTM66::
+	finditem ITEM_TM66 //payback
+	end
+
+Route114_EventScript_ItemTM69::
+	finditem ITEM_TM69 //rock polish
+	end
+
+SeafloorCavern_Room4_EventScript_ItemTM70::
+	finditem ITEM_TM70 //stone edge
+	end
+
+GraniteCave_B2F_EventScript_ItemTM75::
+	finditem ITEM_TM75 //stealth rock
+	end
+
+Route120_EventScript_ItemTM80::
+	finditem ITEM_TM80 // x scissor
+	end
+
+AquaHideOut_1F_EventScript_ItemTM86::
+	finditem ITEM_TM86 //foul play
+	end
+
+Route126_EventScript_ItemTM87::
+	finditem ITEM_TM87 //pluck
+	end
+
+LilycoveCity_ContestHall_EventScript_ItemTM94::
+	finditem ITEM_TM94 // draining kiss
+	end
+
+SafariZone_Southeast_EventScript_ItemTM95::
+	finditem ITEM_TM95 // cross poison
+	end
+
+MagmaHideout_1f_EventScript_ItemTM96::
+	finditem ITEM_TM96 // throat chop
+	end
+
+MossdeepCity_EventScript_ItemTM97::
+	finditem ITEM_TM97 // zen headbutt
+	end
+

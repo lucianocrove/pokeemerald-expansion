@@ -573,6 +573,14 @@ Route111_EventScript_TrainerHillSign::
 	msgbox Route111_Text_TrainerHillSign, MSGBOX_SIGN
 	end
 
+Route111_EventScript_MauvilleTowersSign::
+	msgbox Route111_Text_MauvilleTowersSign, MSGBOX_SIGN
+	end
+
+Route111_EventScript_MauvilleHillsSign::
+	msgbox Route111_Text_MauvilleHillsSign, MSGBOX_SIGN
+	end
+
 Route111_Text_BattleOurFamily:
 	.string "Hello! I take it you're a traveler.\p"
 	.string "How's this? What do you say to taking\n"
@@ -723,7 +731,18 @@ Route111_Text_MauvilleUncleToldMeToTakeRockSmash:
 	.string "the bike shop in MAUVILLE.$"
 
 Route111_Text_TrainerHillSign:
-	.string "{RIGHT_ARROW} TRAINER HILL ENTRANCE\p"
+	.string "TRAINER HILL ENTRANCE\p"
 	.string "“Scale the heights, you hot-blooded\n"
 	.string "TRAINERS!”$"
 
+Route111_Text_MauvilleTowersSign:
+	.string "{RIGHT_ARROW} MAUVILLE CONDO\p"
+	.string "“House of the TRAINER HILL and the\n"
+	.string "MAUVILLE HILLS.”$"
+
+Route111_Text_MauvilleHillsSign:
+	.string "MAUVILLE HILLS\p"
+	.string "“De luxe residential apartments for\n"
+	.string "exclusive TRAINERS.”\p"
+	.string "HOENN TV\n"
+	.string "“HOENN's one and only TV Network.”$"
